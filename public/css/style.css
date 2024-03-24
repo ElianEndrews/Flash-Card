@@ -1,0 +1,146 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+header {
+    background-color: #3a3ab5;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header a:hover {
+    background-color: #4040cc;
+}
+
+.afastar{
+    margin-top: 20px;
+}
+
+/* Estilos para o topo */
+.topo {
+    display: flex;
+    padding-bottom: 10px;
+    width: 80%;
+    border-bottom: 1px solid #3a3ab5;
+}
+
+/* Estilos para o formulário de pesquisa */
+.form-pesquisa {
+    flex-grow: 1;
+}
+
+.campo-pesquisa {
+    font-size: 1.7rem;
+    height: 45px;
+    font-family: Verdana;
+    padding: 0px 20px;
+}
+
+.btn{
+    font-size: 1.7rem;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.btn-pesquisar {
+    background-color: #007bff;
+}
+
+/* Estilos para o botão de adicionar */
+.btn-adicionar {
+    background-color: #28a745;
+}
+
+.btn-adicionar:hover {
+    background-color: #218838;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #007bff;
+}
+
+.btn-administrar{
+    background-color: #808080;
+}
+
+.btn-administrar:hover{
+    background-color: #808080ab;
+}
+
+.btn-voltar{
+    background-color: #b71919;
+}
+
+.btn-voltar:hover{
+    background-color: #b71919e0;
+}
+
+.container_adicionar {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px;
+    border: 3px solid #007bff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-texto,
+.form-cor {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+}
+
+.form-cor{
+    height: 50px;
+}
+
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.success-message {
+    background-color: #DFF2BF;
+    color: #4F8A10;
+    border: 1px solid #4F8A10;
+    padding: 10px;
+    margin: 10px;
+}
+
+

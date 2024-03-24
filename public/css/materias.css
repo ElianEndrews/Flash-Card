@@ -1,0 +1,25 @@
+
+
+.lista_materias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+}
+
+.materia {
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    text-align: center; /* Alinhar o texto ao centro */
+    font-size: 28px; /* Tamanho da fonte */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave das cores */
+    text-decoration: none;
+}
+
+
+.materia:hover {
+    filter: brightness(80%); /* Reduzir o brilho em 10% */
+}
+
+
+

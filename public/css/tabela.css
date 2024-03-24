@@ -1,0 +1,55 @@
+/* Estilo para cada "linha" de matéria */
+.linha {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+/* Estilo para o nome da matéria */
+.nome {
+    font-weight: bold;
+    width: 35%;
+}
+
+/* Estilo para a quantidade de perguntas */
+.quantidade {
+    width: 35%;
+}
+
+/* Estilo para as ações */
+
+.acoes{
+    width: 40%;
+}
+
+.acoes a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Estilo para o botão de detalhes */
+.acoes a.detalhes {
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* Estilo para o botão de editar */
+.acoes a.editar {
+    background-color: #ddb12c;
+    color: #000;
+}
+
+/* Estilo para o botão de deletar */
+.acoes a.deletar {
+    background-color: #dc3545;
+    color: #fff;
+}
